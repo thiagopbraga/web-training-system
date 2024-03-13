@@ -13,7 +13,7 @@ export default function Home() {
   }, [userLogged]);
 
   return (
-    <main className='flex min-h-screen items-center justify-between'>
+    <main className='flex min-h-screen items-center justify-center'>
       <span>Main Screen</span>
     </main>
   );

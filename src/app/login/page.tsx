@@ -23,6 +23,10 @@ function Copyright(props: any) {
       variant='body2'
       color='text.secondary'
       align='center'
+      style={{
+        position: 'absolute',
+        bottom: 10,
+      }}
       {...props}
     >
       {'Copyright © '}
@@ -114,7 +118,7 @@ export default function SignInSide() {
               gap: 2,
             }}
           >
-            <Image src='/logo.png' alt={'Logo FGFA'} width={200} height={200} />
+            <Image src='/logo.png' alt={'Logo FGFA'} width={100} height={100} />
             <Typography component='h1' variant='h5'>
               Acesse Abaixo
             </Typography>
